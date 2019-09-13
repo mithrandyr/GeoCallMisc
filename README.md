@@ -14,7 +14,7 @@ Install-Module Az
 ## AzureDeploy
 
 ## CertRenew
-this script handles renewing the *.geocall.*.* wildcard certificate from letsencrypt.org.  Running with a '-production' switch will renew the production certificate and upload it to the Azure Blob Storage -- to deploy to systems, remotely logon, import GCPosh and run 'Invoke-GCPDeploySSL'.
+this script handles renewing the *.geocall.* wildcard certificate from letsencrypt.org.  Running with a '-production' switch will renew the production certificate and upload it to the Azure Blob Storage -- to deploy to systems, remotely logon, import GCPosh and run 'Invoke-GCPDeploySSL'.
 
 ## GeoCallDeploy
 
